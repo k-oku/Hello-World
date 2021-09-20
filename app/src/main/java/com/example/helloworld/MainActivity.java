@@ -5,8 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
+    //a small change added
+    ImageView imgview;
 
-    Log.d("MainActivity","Hello World!");
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
 
     public static void Main(String [] args) {
